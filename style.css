@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-size: 3vmin; */
+}
+.Allcollages{
+    font-size: 2vmin;
+}
+#navbar{
+    position: fixed;
+    height: 8vmin;
+    width: -webkit-fill-available;
+    height: 8vmin;
+    background-color: black;
+    text-align: center;
+    color: white;
+    align-content: center;
+    font-weight: bold;
+    font-size: 6vmin;
+}
+#navbar-clone{
+    height: 8vmin;
+}
+.Images{
+    height: 75vmin;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 7vmin;
+    font-weight: bold;
+    align-items: center;
+    background-position-x: center;
+    border: 2px solid black;
+}
+#btechImage{
+    background-image: url(images/btech-index.jpg);
+    background-size: 207vmin;
+    background-repeat: no-repeat;
+    background-position-y: -15vmin;
+}
+#mbaImage{
+    background-image: url(images/mba-index.avif);
+    background-size: 207vmin;
+    background-repeat: no-repeat;
+    background-position-y: -20vmin;
+}
+#medicalImage{
+    background-image: url(images/medical-index.jpg);
+    background-size: 207vmin;
+    background-repeat: no-repeat;
+    background-position-y: -15vmin;
+}
+.allText{
+    background-color: black;
+    color: white;
+}
+.Images:hover{
+    font-size: 10vmin;
+    transition-duration: 3s;
+    background-size: 210vh;
+}
+#backToTop{
+    font-size: 2.5vmin;
+    border: none;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scroll-top__link{
+    text-decoration: none;
+}
+.topClass{
+    margin-bottom: -1.25vmin;
+}
+.about{
+    display: flex;
+    padding: 3vmin 5vmin 0 5vmin;
+    flex-direction: column;
+    align-items: center;
+}
+#tableAll{
+    display: flex;
+    justify-content: center;
+}
+#tableforall{
+    table-layout: fixed;
+    margin: 3vmin 0 0 0;
+    width: 300vmin;
+    font-size: 3vmin;
+    text-align: center;
+}
+h3{
+    font-size: 4vmin;
+}
+#tableRow{
+    background-color: rgb(0 255 250);
+}
+td{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    /* border-left: 1px solid black; */
+}
+.tableH{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.but{
+    font-size: 2vmin;
+}
+/* main{
+    margin-left: 1vmin;
+} */
+.backtotopdiv{
+    height: 5vmax;
+    display: flex;
+    align-items: center;
+}
+.backToTop{
+    font-size: 2.5vmin;
+}
